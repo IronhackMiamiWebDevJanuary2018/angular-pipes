@@ -10,6 +10,7 @@ import { CustomPipesComponent } from './custom-pipes/custom-pipes.component';
 
 // NEW
 import { CapitalizePipe } from './pipes/capitalize.pipe';
+import { FilterPipe } from './pipes/filter.pipe';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,9 @@ import { CapitalizePipe } from './pipes/capitalize.pipe';
     CustomPipesComponent,
     
     // NEW
-    CapitalizePipe
+    CapitalizePipe,
+    
+    FilterPipe
   ],
   imports: [
     BrowserModule,
